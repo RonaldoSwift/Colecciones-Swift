@@ -10,13 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   
+    //PROPIEDADES O ATRIBUTOS
+    let numeros = [1, 2, 3, 4, 5]
+    
+    
+    
+    //METODOS O FUNCIONES
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        print("Hola mundo")
+           super.viewDidLoad()
+           
+           print("Hola mundo")
     }
-
-
 }
 

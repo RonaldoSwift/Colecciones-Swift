@@ -16,12 +16,16 @@ class ViewController: UIViewController {
     
     
     
+    
     //METODOS O FUNCIONES
     
     override func viewDidLoad() {
            super.viewDidLoad()
            
-           print("Hola mundo")
+        print("El elemnto en la posicion 0 es: ", numeros[0])
+        print("El elemento en la posicion 1 es: \(numeros[1])")
+        
+        
     }
 }
 

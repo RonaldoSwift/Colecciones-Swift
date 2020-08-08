@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
    
+    @IBOutlet weak var nuevoButton: UIButton!
+    
     //Crear un arreglo de numeros decimales y mostrar en consola el mayor
     
     
@@ -19,7 +21,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
            super.viewDidLoad()
+    }
+    
+    @IBAction func realizarAlgo(_ sender: Any) {
         print("El numero mayor es: \(numerosDecimales.max()!)")
+
     }
 }
 

@@ -13,19 +13,17 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var nuevoButton: UIButton!
     
-    //Crear un arreglo de numeros decimales y mostrar en consola el mayor
+    /* Crear una estructura llamada Hamburguesa que este compuesta por las estructuras Lechuga, Tomate, Papa, Carne, Pan. Finalmente crear un arreglo de Hamburguesa cuando se haga click al boton.
+     */
     
-    
-    var numerosDecimales: Array<Double> = Array(arrayLiteral: 2.67, 5.70, 9.0)
- 
-    
+    // PUT YOUR CODE HERE
+
     override func viewDidLoad() {
            super.viewDidLoad()
     }
     
     @IBAction func realizarAlgo(_ sender: Any) {
-        print("El numero mayor es: \(numerosDecimales.max()!)")
-
+        
     }
 }
 

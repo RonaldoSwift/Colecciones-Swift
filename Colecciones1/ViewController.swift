@@ -12,11 +12,14 @@ class ViewController: UIViewController {
 
    
     //Crear un arreglo de numeros decimales y mostrar en consola el mayor
+    
+    
+    var numerosDecimales: Array<Double> = Array(arrayLiteral: 2.67, 5.70, 9.0)
  
     
     override func viewDidLoad() {
            super.viewDidLoad()
-    
+        print(numerosDecimales.max()!)
     }
 }
 

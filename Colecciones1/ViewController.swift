@@ -11,21 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
    
-    //PROPIEDADES O ATRIBUTOS
-    let numeros = [1, 2, 3, 4, 5]
-    
-    
-    
-    
-    //METODOS O FUNCIONES
+    //Crear un arreglo de numeros decimales y mostrar en consola el mayor
+ 
     
     override func viewDidLoad() {
            super.viewDidLoad()
-           
-        print("El elemnto en la posicion 0 es: ", numeros[0])
-        print("El elemento en la posicion 1 es: \(numeros[1])")
-        
-        
+    
     }
 }
 

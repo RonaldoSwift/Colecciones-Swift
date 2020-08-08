@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
            super.viewDidLoad()
-        print(numerosDecimales.max()!)
+        print("El numero mayor es: \(numerosDecimales.max()!)")
     }
 }
 

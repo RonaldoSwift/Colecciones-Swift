@@ -18,7 +18,7 @@ import Foundation
  
  La Hamburguesa esta compuesta por 1 lechuga, 1 carne, 1 tomate y 1 papa.
  Aplicar la relacion de clases "Composición".
- Finalmente crear un arreglo de Hamburguesas
+ Finalmente crear un arreglo de Hamburguesas cuando se haga click al boton.
  */
 
 
@@ -31,7 +31,7 @@ import Foundation
 
  El carro esta compuesto por 4 ruedas, 5 asientos, y 4 puertas.
  Aplicar composición.
- Finalmente crear un solo objeto de carro.
+ Finalmente crear un solo objeto de carro cuando se haga click al boton.
  */
 
 /* 3
@@ -42,5 +42,5 @@ import Foundation
  
  El restaurante esta compuesta por 1 arreglo de Cliente y 1 arreglo de Empleado.
  Aplicar composición
- Finalmente crear un resturante.
+ Finalmente crear un resturante cuando se haga click al boton.
  */

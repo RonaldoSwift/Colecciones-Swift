@@ -41,9 +41,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func realizarAlgo(_ sender: Any) {
-        var hamburguesas: Array<Hamburguesa> = Array()
-        hamburguesas.append(Hamburguesa(lechuga: Lechuga(), tomate: Tomate(), papa: Papa(), carne: Carne(), pan: Pan()))
-        print(hamburguesas)
+        
+        //Creamos el objeto
+//        var biblioteca = Biblioteca()
+//
+//        biblioteca.setNumeros(numeros: [1,2])
+        
+//        var hamburguesas: Array<Hamburguesa> = Array()
+//        hamburguesas.append(Hamburguesa(lechuga: Lechuga(), tomate: Tomate(), papa: Papa(), carne: Carne(), pan: Pan()))
+//        print(hamburguesas)
     }
 }
 

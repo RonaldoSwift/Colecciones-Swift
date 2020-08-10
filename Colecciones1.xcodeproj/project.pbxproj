@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3ED55624E1CF70008F7003 /* Biblioteca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED55524E1CF70008F7003 /* Biblioteca.swift */; };
+		2B3ED55A24E1D848008F7003 /* Hamburguesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED55924E1D848008F7003 /* Hamburguesa.swift */; };
+		2B3ED55C24E1DA94008F7003 /* Empleado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED55B24E1DA94008F7003 /* Empleado.swift */; };
+		2B3ED55F24E1DC2D008F7003 /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3ED55E24E1DC2D008F7003 /* Persona.swift */; };
 		2B64ACA824E07492000332A3 /* EjercicosComposicion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B64ACA724E07492000332A3 /* EjercicosComposicion.swift */; };
 		2BC2F59824E10BF5003345DF /* EjerciciosAgregacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2F59724E10BF5003345DF /* EjerciciosAgregacion.swift */; };
 		2BC2F59B24E10CC7003345DF /* EjerciciosHerencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2F59A24E10CC7003345DF /* EjerciciosHerencia.swift */; };
@@ -20,6 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B3ED55524E1CF70008F7003 /* Biblioteca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biblioteca.swift; sourceTree = "<group>"; };
+		2B3ED55924E1D848008F7003 /* Hamburguesa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesa.swift; sourceTree = "<group>"; };
+		2B3ED55B24E1DA94008F7003 /* Empleado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empleado.swift; sourceTree = "<group>"; };
+		2B3ED55E24E1DC2D008F7003 /* Persona.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
+		2B3ED56024E1DD47008F7003 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2B64ACA724E07492000332A3 /* EjercicosComposicion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicosComposicion.swift; sourceTree = "<group>"; };
 		2BC2F59724E10BF5003345DF /* EjerciciosAgregacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjerciciosAgregacion.swift; sourceTree = "<group>"; };
 		2BC2F59A24E10CC7003345DF /* EjerciciosHerencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjerciciosHerencia.swift; sourceTree = "<group>"; };
@@ -45,6 +54,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B3ED55424E1CF5B008F7003 /* Soluciones */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED55D24E1DC1D008F7003 /* Herencia */,
+				2B3ED55824E1D837008F7003 /* Composicion */,
+				2B3ED55724E1D743008F7003 /* Agregacion */,
+			);
+			path = Soluciones;
+			sourceTree = "<group>";
+		};
+		2B3ED55724E1D743008F7003 /* Agregacion */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED55524E1CF70008F7003 /* Biblioteca.swift */,
+				2B3ED55B24E1DA94008F7003 /* Empleado.swift */,
+			);
+			path = Agregacion;
+			sourceTree = "<group>";
+		};
+		2B3ED55824E1D837008F7003 /* Composicion */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED55924E1D848008F7003 /* Hamburguesa.swift */,
+			);
+			path = Composicion;
+			sourceTree = "<group>";
+		};
+		2B3ED55D24E1DC1D008F7003 /* Herencia */ = {
+			isa = PBXGroup;
+			children = (
+				2B3ED55E24E1DC2D008F7003 /* Persona.swift */,
+			);
+			path = Herencia;
+			sourceTree = "<group>";
+		};
 		2BC2F59924E10CB1003345DF /* Ejercicios */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +119,7 @@
 		FB5561A724BA16BF00E15C9C /* Colecciones1 */ = {
 			isa = PBXGroup;
 			children = (
+				2B3ED55424E1CF5B008F7003 /* Soluciones */,
 				2BC2F59924E10CB1003345DF /* Ejercicios */,
 				FB5561A824BA16BF00E15C9C /* AppDelegate.swift */,
 				FB5561AA24BA16BF00E15C9C /* SceneDelegate.swift */,
@@ -83,6 +128,7 @@
 				FB5561B124BA16C900E15C9C /* Assets.xcassets */,
 				FB5561B324BA16C900E15C9C /* LaunchScreen.storyboard */,
 				FB5561B624BA16C900E15C9C /* Info.plist */,
+				2B3ED56024E1DD47008F7003 /* README.md */,
 			);
 			path = Colecciones1;
 			sourceTree = "<group>";
@@ -160,11 +206,15 @@
 			files = (
 				FB5561AD24BA16BF00E15C9C /* ViewController.swift in Sources */,
 				2BC2F59824E10BF5003345DF /* EjerciciosAgregacion.swift in Sources */,
+				2B3ED55F24E1DC2D008F7003 /* Persona.swift in Sources */,
+				2B3ED55A24E1D848008F7003 /* Hamburguesa.swift in Sources */,
 				FB5561A924BA16BF00E15C9C /* AppDelegate.swift in Sources */,
+				2B3ED55C24E1DA94008F7003 /* Empleado.swift in Sources */,
 				FB5561AB24BA16BF00E15C9C /* SceneDelegate.swift in Sources */,
 				2BC2F59B24E10CC7003345DF /* EjerciciosHerencia.swift in Sources */,
 				2BC2F59D24E10D2F003345DF /* EjerciciosGraficos.swift in Sources */,
 				2B64ACA824E07492000332A3 /* EjercicosComposicion.swift in Sources */,
+				2B3ED55624E1CF70008F7003 /* Biblioteca.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

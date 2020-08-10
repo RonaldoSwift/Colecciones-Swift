@@ -9,7 +9,7 @@
 import Foundation
 
 /* 1
-Crear un archivo en swift llamado Persona. Dentro del archivo crear las siguiente estructuras:
+Crear un archivo en swift llamado Persona. Dentro del archivo crear las siguiente clases:
 - Persona
 - Profesor
 

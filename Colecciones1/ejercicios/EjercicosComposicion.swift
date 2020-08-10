@@ -9,7 +9,7 @@
 import Foundation
 
 /* 1
- Crear un archivo en swift llamado Hamburguesa. Dentro del archivo crear las siguiente estructuras:
+ Crear un archivo en swift llamado Hamburguesa. Dentro del archivo crear las siguiente clases:
  - Hamburguesa
  - Lechuga
  - Carne
@@ -23,7 +23,7 @@ import Foundation
 
 
 /* 2
- Crear un archivo en swift llamado Carro. Dentro del archivo crear las siguientes estructuras:
+ Crear un archivo en swift llamado Carro. Dentro del archivo crear las siguientes clases:
  - Carro
  - Rueda
  - Asiento
@@ -35,7 +35,7 @@ import Foundation
  */
 
 /* 3
- Crear un archivo en swift llamada Restaurante. Dentro del archivo crear las siguientes estructuras:
+ Crear un archivo en swift llamada Restaurante. Dentro del archivo crear las siguientes clases:
  - Restaurante
  - Cliente
  - Empleado

@@ -45,7 +45,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BC2F59924E10CB1003345DF /* ejercicios */ = {
+		2BC2F59924E10CB1003345DF /* Ejercicios */ = {
 			isa = PBXGroup;
 			children = (
 				2BC2F59724E10BF5003345DF /* EjerciciosAgregacion.swift */,
@@ -53,7 +53,7 @@
 				2BC2F59A24E10CC7003345DF /* EjerciciosHerencia.swift */,
 				2BC2F59C24E10D2F003345DF /* EjerciciosGraficos.swift */,
 			);
-			path = ejercicios;
+			path = Ejercicios;
 			sourceTree = "<group>";
 		};
 		FB55619C24BA16BF00E15C9C = {
@@ -75,7 +75,7 @@
 		FB5561A724BA16BF00E15C9C /* Colecciones1 */ = {
 			isa = PBXGroup;
 			children = (
-				2BC2F59924E10CB1003345DF /* ejercicios */,
+				2BC2F59924E10CB1003345DF /* Ejercicios */,
 				FB5561A824BA16BF00E15C9C /* AppDelegate.swift */,
 				FB5561AA24BA16BF00E15C9C /* SceneDelegate.swift */,
 				FB5561AC24BA16BF00E15C9C /* ViewController.swift */,
